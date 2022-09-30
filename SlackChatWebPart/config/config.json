@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "slack-chat-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/slackChatWebPart/SlackChatWebPartWebPart.js",
+          "manifest": "./src/webparts/slackChatWebPart/SlackChatWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SlackChatWebPartWebPartStrings": "lib/webparts/slackChatWebPart/loc/{locale}.js"
+  }
+}

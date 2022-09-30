@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "slack-chat-web-part",
+    "libraryId": "585e3537-d3a3-4b83-ba21-73d1a177d6ea",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SlackChatWebPart",
+    "solutionShortDescription": "SlackChatWebPart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

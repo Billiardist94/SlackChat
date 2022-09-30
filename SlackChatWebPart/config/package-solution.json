@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "slack-chat-web-part-client-side-solution",
+    "id": "585e3537-d3a3-4b83-ba21-73d1a177d6ea",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SlackChatWebPart description"
+      },
+      "longDescription": {
+        "default": "SlackChatWebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "slack-chat-web-part Feature",
+        "description": "The feature that activates elements of the slack-chat-web-part solution.",
+        "id": "64d87136-9b04-4f22-af38-c8fccee10c66",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/slack-chat-web-part.sppkg"
+  }
+}
